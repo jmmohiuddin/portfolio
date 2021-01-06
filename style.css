@@ -23,6 +23,11 @@ h1 {
      padding-left: 2%;
 }
 
+.half-width p {
+     position: relative;
+     left: -40px;
+}
+
 .hire-b {
      text-decoration: none;
      background-image: linear-gradient(45deg, orange, tomato);
@@ -41,6 +46,11 @@ h1 {
 .top-banner {
      background-image: url(top-banner.png);
      background-repeat: no-repeat;
+}
+
+.top-banner .half-width p {
+     left: -2px;
+     position: relative;
 }
 
 section {
@@ -74,6 +84,22 @@ section {
      height: 350px;
 }
 
+.half-width2 p {
+     line-height: 2.1;
+}
+
+.half-width1 p {
+     line-height: 1.5;
+}
+
+.half-width1 h4 {
+     font-size: 20px;
+}
+
+.half-width2 h4 {
+     font-size: 20px;
+}
+
 .dream-section {
      height: 500px;
      padding-bottom: 200px;
@@ -81,4 +107,13 @@ section {
 
 .f {
      text-align: center;
+}
+
+.f:hover {
+     color: orange;
+     ttransition: .20s;
+     -webkit-transition: ;
+     -moz-transition: ;
+     -ms-transition: ;
+     -o-transition: ;
 }
